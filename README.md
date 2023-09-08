@@ -1,5 +1,5 @@
 # NAPS OpenShift Skills Challenge
-Test your OpenShift skills with automated setup and grading. Are you ready for the challenge?
+Test whether you have the skills to configure and use OpenShift in a highly regulated environment. Are you ready for the challenge?
 
 # Prerequesites
 - bash
@@ -8,8 +8,6 @@ Test your OpenShift skills with automated setup and grading. Are you ready for t
 
 # Achievements
 
-[cols=1,2]
-|===
-| I Will Comply
-| Run a passing compliance scan using the Compliance Operator. It must be a node scan that uses the openshift-compliance namesace and the default NIST 800-53 Moderate-Impact Baseline profile.
-
+| Achievement   | Description                                                                                          |
+| ------------- | ---------------------------------------------------------------------------------------------------- |
+| I Will Comply | Run a passing compliance scan using the Compliance Operator. It must return a result of "COMPLIANT". |
