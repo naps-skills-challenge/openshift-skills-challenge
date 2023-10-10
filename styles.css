@@ -11,10 +11,13 @@ body {
     height: 104px;
     margin: 0px auto;
     width: 100%;
-    text-align: center;
     background-color: #C9C9C9;  /* Medium grey */
-    /* border: 1px solid black; why does this cause it to grow vertically? */
-    /*margin: 0 auto*/
+    text-align: center;
+}
+
+.globalHeader h1 {
+    vertical-align: middle;
+    padding-top: 16px;
 }
 
 .pageHeader {
@@ -29,6 +32,11 @@ body {
     text-align: center;
     background-color: red;  /* Medium grey */
     color: black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.pageHeader h1 {
+    padding-top: 14px;
 }
 
 main {
