@@ -28,7 +28,7 @@ body {
     margin: 0px auto;
     left: 0px;
     right: 0px;
-    background-color: red;  /* Medium grey */
+    background-color: #EE0000;
     color: black;
     box-shadow: 1px 1px 5px black;
 }
