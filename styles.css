@@ -1,9 +1,27 @@
+/*
+ * Palette
+ *
+ * Neutrals
+ * #FFFFFF - White
+ * #F3F3F3 - Light Gray
+ * #C9C9C9 - Cool Gray 3C
+ * #8B8B8B - Cool Gray 7C
+ * #4D4D4D - Cool Gray 11C
+ * #000000 - Rich Black
+ *
+ * Reds
+ * #FAB6B6 - Red tint 2
+ * #F56D6D - Red tint 1
+ * #EE0000 - Red Hat red
+ * #BE0000 - Red shade 1
+ * #8F0000 - Red shade 2
+ * #5F0000 - Red shade 3
+ */
 body {
     margin: 0 auto;
     font-size: 14px;
     font-family: var(--rh-font-family-body-text,"Red Hat Text","RedHatText",Arial,sans-serif);
-    background-color: #F3F3F3; /* Light grey */
-    #background-color: #C9C9C9;  /* Medium grey */
+    background-color: #F3F3F3; /* Light gray */
 }
 
 .globalHeader {
@@ -11,7 +29,7 @@ body {
     height: 104px;
     margin: 0px auto;
     width: 100%;
-    background-color: #C9C9C9;  /* Medium grey */
+    background-color: #C9C9C9;  /* Cool gray 3C */
     text-align: center;
 }
 
@@ -28,7 +46,7 @@ body {
     margin: 0px auto;
     left: 0px;
     right: 0px;
-    background-color: #EE0000;
+    background-color: #EE0000; /* Red Hat red */
     color: black;
     box-shadow: 1px 1px 5px black;
 }
@@ -39,7 +57,7 @@ body {
     left: 32px;
     height: 64px;
     width: 64px;
-    border: solid 2px #4D4D4D;
+    border: solid 2px #4D4D4D; /* Cool Gray 11C */
     border-radius: 10px;
     background-color: black;
 }
