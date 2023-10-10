@@ -86,9 +86,10 @@ main {
 
 table {
     table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid black;
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
 }
 
 tr {
