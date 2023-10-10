@@ -43,7 +43,6 @@ body {
     left: 0px;
     right: 0px;
     background-color: #212427; /* Secondary BGs */
-    box-shadow: 1px 1px 5px black;
 }
 
 .userAvatar {
