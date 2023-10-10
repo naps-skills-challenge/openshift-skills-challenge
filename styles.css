@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     font-size: 14px;
     font-family: var(--rh-font-family-body-text,"Red Hat Text","RedHatText",Arial,sans-serif);
-    background-color: #F3F3F3; /* Light gray */
+    background-color: #F3F3F3; /* Light Gray */
 }
 
 .globalHeader {
@@ -29,7 +29,8 @@ body {
     height: 104px;
     margin: 0px auto;
     width: 100%;
-    background-color: #C9C9C9;  /* Cool gray 3C */
+    /*background-color: #C9C9C9;*/  /* Cool Gray 3C */
+    background-color: #4D4D4D; /* Cool Gray 11C */
     text-align: center;
 }
 
@@ -46,7 +47,8 @@ body {
     margin: 0px auto;
     left: 0px;
     right: 0px;
-    background-color: #EE0000; /* Red Hat red */
+    /*background-color: #EE0000;*/ /* Red Hat red */
+    background-color: #C9C9C9;  /* Cool Gray 3C */
     color: black;
     box-shadow: 1px 1px 5px black;
 }
@@ -87,7 +89,8 @@ main {
     margin: 0px auto;
     width: 926px;
     color: white;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #8B8B8B;  /* Cool Gray 7C */
 }
 
 main h2 {
@@ -128,5 +131,5 @@ table td:nth-child(3) {
 }
 
 .sectionHeader {
-    padding: 1px;
+    padding: 10px;
 }
