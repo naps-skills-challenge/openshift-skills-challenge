@@ -7,20 +7,22 @@ body {
     background-color: #F3F3F3;
 }
 
-h1, h2 {
-    color: #EE0000; /* Red Hat red */
-    text-align: center;
-}
-
 header {
     border: 1px solid black;
     text-align: center;
-    background-color: #C9C9C9;  Medium grey
+    #background-color: #C9C9C9;  /* Medium grey */
+    background-color: red;  /* Medium grey */
+    color: black;
 }
 
 main {
     color: white;
     background-color: black;
+}
+
+main h2 {
+    color: #EE0000; /* Red Hat red */
+    text-align: center;
 }
 
 table {
