@@ -35,10 +35,11 @@ body {
 
 .userAvatar {
     position: absolute;
-    top: 20px;
+    top: 18px;
     left: 32px;
     height: 64px;
     width: 64px;
+    border: solid 2px #4D4D4D;
     border-radius: 10px;
     background-color: black;
 }
