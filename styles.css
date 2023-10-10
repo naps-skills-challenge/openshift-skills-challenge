@@ -4,16 +4,20 @@ body {
     border: 1px solid black;
     font-size: 14px;
     font-family: var(--rh-font-family-body-text,"Red Hat Text","RedHatText",Arial,sans-serif);
+    background-color: #F3F3F3;
 }
 
 header {
-    color: red;
+    color: #EE0000; /* Red Hat red */
     border: 1px solid black;
     text-align: center;
+    background-color: #4D4D4D;
+    /*background-color: #C9C9C9;  Medium grey */
 }
 
 main {
     color: white;
+    background-color: #C9C9C9;
 }
 
 table {
@@ -24,8 +28,14 @@ table {
 }
 
 tr {
-    border: 1px solid black;
-    background-color: black;
+    /*border: 1px solid black;*/
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 15px;
+    /*border-bottom: 5px solid #C9C9C9; */
+    background-color: black
 }
 
 table td:nth-child(1) {
@@ -43,3 +53,4 @@ table td:nth-child(3) {
 .achieveName {
     font-size: 16px;
 }
+
