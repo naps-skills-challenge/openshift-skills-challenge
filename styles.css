@@ -4,13 +4,19 @@ body {
     border: 1px solid black;
     font-size: 14px;
     font-family: var(--rh-font-family-body-text,"Red Hat Text","RedHatText",Arial,sans-serif);
-    background-color: #F3F3F3;
+    background-color: #F3F3F3; /* Light grey */
+    #background-color: #C9C9C9;  /* Medium grey */
 }
 
-header {
+.globalHeader {
+    text-align: center;
+    background-color: #C9C9C9;  /* Medium grey */
+    border: 1px solid black;
+}
+
+.pageHeader {
     border: 1px solid black;
     text-align: center;
-    #background-color: #C9C9C9;  /* Medium grey */
     background-color: red;  /* Medium grey */
     color: black;
 }
