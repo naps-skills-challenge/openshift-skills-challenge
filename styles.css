@@ -1,7 +1,5 @@
 body {
-    width: 900px;
     margin: 0 auto;
-    border: 1px solid black;
     font-size: 14px;
     font-family: var(--rh-font-family-body-text,"Red Hat Text","RedHatText",Arial,sans-serif);
     background-color: #F3F3F3; /* Light grey */
@@ -9,19 +7,37 @@ body {
 }
 
 .globalHeader {
+    position: absolute;
+    height: 104px;
+    margin: 0px auto;
+    width: 100%;
     text-align: center;
     background-color: #C9C9C9;  /* Medium grey */
-    border: 1px solid black;
+    /* border: 1px solid black; why does this cause it to grow vertically? */
+    /*margin: 0 auto*/
 }
 
 .pageHeader {
-    border: 1px solid black;
+    position: absolute;
+    top: 104px;
+    height: 102px;
+    width: 1010px;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    /* border: 1px solid black; */
     text-align: center;
     background-color: red;  /* Medium grey */
     color: black;
 }
 
 main {
+    position: absolute;
+    top: 206px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    width: 926px;
     color: white;
     background-color: black;
 }
