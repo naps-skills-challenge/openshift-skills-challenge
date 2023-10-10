@@ -28,15 +28,36 @@ body {
     margin: 0px auto;
     left: 0px;
     right: 0px;
-    /* border: 1px solid black; */
-    text-align: center;
     background-color: red;  /* Medium grey */
     color: black;
     box-shadow: 1px 1px 5px black;
 }
 
-.pageHeader h1 {
-    padding-top: 14px;
+.userAvatar {
+    position: absolute;
+    top: 20px;
+    left: 32px;
+    height: 64px;
+    width: 64px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.pageBreadCrumb {
+    position: absolute;
+    top: 38px;
+    left: 120px;
+    height: 102px;
+    font-size: 26px;
+    color: white;
+}
+
+.challengeImage {
+    position: absolute;
+    top: 10px;
+    left: 894px;
+    height: 84px;
+    width: 84px;
 }
 
 main {
@@ -63,13 +84,11 @@ table {
 }
 
 tr {
-    /*border: 1px solid black;*/
     margin-bottom: 15px;
 }
 
 th, td {
     padding: 15px;
-    /*border-bottom: 5px solid #C9C9C9; */
     background-color: black
 }
 
